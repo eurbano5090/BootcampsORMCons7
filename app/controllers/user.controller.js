@@ -1,6 +1,4 @@
-
-const Bootcamp = require("../models/bootcamp.model.js");
-const User = require("../models/user.model.js");
+const {User,Bootcamp }= require("../models/index.js");
 
 const createUser = (dataUser)=>{
     return new Promise(async (resolve,reject)=>{

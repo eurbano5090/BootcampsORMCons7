@@ -31,7 +31,7 @@ const {createBootcamp,addUser,findBootcampById,findAllBootcamp}= require("./app/
     const listBootcamp = await findAllBootcamp();
     console.log(JSON.stringify(listBootcamp, null,2));
 
-     const userById = await findUserById(4);
+     const userById = await findUserById(2);
      console.log(JSON.stringify(userById, null,2));
 
     const listUsers = await findAllUser(); 

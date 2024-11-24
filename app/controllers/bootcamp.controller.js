@@ -1,5 +1,4 @@
-
-const { Bootcamp,User}  = require("../models");
+const {User,Bootcamp }= require("../models/index.js");
 
 const conexion = require("../config/db.config.js")
 
